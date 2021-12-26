@@ -1,0 +1,55 @@
+QUESTION: 1.List 5 difference between Browser JS(console) v Nodejs
+
+DESCRIPTION:
+1.Javascript is a programming language that is used for writing scripts on the website. NodeJS is a Javascript runtime environment.
+2.Javascript can only be run in the browsers.	We can run Javascript outside the browser with the help of NodeJS.
+3.Javascript is basically used on the front end. Node JS is mostly used on the server-side.
+4.Javascript is capable enough to add HTML and play with the DOM. Nodejs does not have capability to add HTML tags.
+5.Javascript can run in any browser engine as like JS core in safari and Spidermonkey in Firefox. V8 is the Javascript engine inside of node.js that parses and runs Javascript. 
+
+
+
+QUESTION: 2.watch & summary 5 points - https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+DESCRIPTION:
+The video is about how the browser actually render a website.
+1.The first step is parsing in which the html and css files are transfered to DOM tree through html parser and cssom parser
+2.The second step is rendering in which the render tree combines html and css elements came from dom tree
+3.The next step is checking the four trees html parser, cssom,dom, and render tree 
+4.The next step is to layout the elements on the webpage which is a process of arranging the contents on the page
+5.In the last step painting is happened which take the layed out render trees and creates layers and renders layers in a 12 step phase
+All of thes steps can apply after page load
+
+
+QUESTION: 3.To read task
+
+
+QUESTION: 4.Execute the below code and write your description in txt file
+a. typeof(1)
+b. typeof(1.1)
+c. typeof('1.1')
+d. typeof(true)
+e. typeof(null)
+f. typeof(undefined)
+g. typeof([])
+h. typeof({})
+i. typeof(NaN)
+
+DESCRIPTION:
+
+a. typeof(1) -NUMBER
+b. typeof(1.1) -NUMBER
+c. typeof('1.1') -STRING
+d. typeof(true) -BOOLEAN
+e. typeof(null) -OBJECT
+f. typeof(undefined) -UNDEFINED
+g. typeof([]) -OBJECT
+h. typeof({}) -OBJECT
+i. typeof(NaN) -NUMBER
+
+In the above question type of 1, 1.1 is number because javascript takes integers and decimal values as numbers
+Any element represented in " " or ' ' is considered as string
+The true or false is taken as boolean and null is taken as an object
+Undefined is of type undefined and { },[] these braces are considered as object 
+Since not a number (NaN) is trying to convert into a number it is considered as a number in javascript
+
